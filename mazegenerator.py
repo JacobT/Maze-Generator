@@ -111,6 +111,6 @@ class Maze:
 
 if __name__ == "__main__":
     maze = Maze(15, 100)
-    # maze.generate_recursive(maze.maze[0][0])
-    maze.generate_loop()
+    maze.generate_recursive(maze.maze[0][0])
+    # maze.generate_loop()
     maze.print_maze()
